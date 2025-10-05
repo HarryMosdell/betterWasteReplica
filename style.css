@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif!important;
+}
+.light-grey-text{
+  color:rgb(106, 106, 106);
+}
+.green-button{
+    background: #1ea19a;
+    color: #fff !important;
+    border-radius: 4px;
+    border:0px;
+
+}
+
+.green-button:hover{
+    background-color:#3E4A59!important;
+}
+
+.dark-blue-button{
+    background-color:#3E4A59!important;
+    color: #fff !important;
+    border-radius: 4px;
+    border:0px;
+
+}
+
+.green-text{
+  color: rgb(30, 161, 154);
+}
+.green-background{
+  background-color: rgb(30, 161, 154);
+}
+
+.sticky-sidebar-background{
+    background: #233049!important;
+}
+
+.dark-blue-background{
+   background-color:#3E4A59!important;
+}
+
+.dark-blue-text{
+   color:#3E4A59!important;
+}
+
+.FONT-WEIGHT{
+    font-weight: 600;
+}
+
+.header-padding{
+padding-top:155px;
+
+}
+@media(max-width:900px){
+    .header-padding{
+padding-top:125px;
+
+}
+}
+.top-text{
+    font-size: 18px;
+}
+
+.hover-card{
+    display:none;
+   
+}
+
+
+.hover-container:hover .hover-card{
+    display: block!important;
+}
+
+.grey-background{
+    background: #F3F4F6;
+}
+
+.form-input-height{
+    height: 51px;
+    
+}
+
+.border-raidus{
+    border-radius: 8px;
+}
+
+.form-input-border-style{
+    border: 1px solid black;
+}
+
+.box-shadow{
+ box-shadow: 0 0 10px rgba(0, 0, 0, .11);
+}
+
+.side-bar{
+    background-color: #ffd000;
+    transform: rotate(-90deg); 
+    top:40%; 
+    left:-28px; 
+    z-index:97; 
+     height:40px; 
+    
+}
+
+.line-height-32{
+        line-height:32px;
+    }
+    .customer-circle{
+        display: inline-block; 
+        border-radius: 50%; 
+        width: 51px; 
+        height: 51px; 
+        line-height: 51px;
+    }
+
+    @media(min-width:800px) {
+
+.header-wrapper{
+background-position: right top !important;
+background-repeat: no-repeat !important;      
+background-size: 65% !important; 
+background:url(https://betterwaste.co.uk/wp-content/uploads/2024/08/Header_banner-image2.webp);
+}
+
+}
+.li-font-size-20 {
+font-size: 20px!important;
+}
+.font-size-50{
+font-size:55px!important;
+}
+
+@media(max-width:800px) {
+.font-large{
+font-size:32px!important;
+}
+
+
+.li-font-size-18 {
+font-size: 18px!important;
+}
+} 
+
+.hamburger-container{
+    width:44px; 
+    height:44px; 
+    border-radius: 50%; 
+    background-color:#3E4A59!important;
+}
+
+.cookie-button{
+    background: #222f44 !important; 
+    border-top-left-radius: 13px; 
+  border-top-right-radius: 13px;
+}
+@media(max-width:900px) {
+.cookie-button{
+  bottom:10%!important;
+}
+}
+
+.hamburger-fixed{
+    border-top-left-radius: 18px; 
+  border-top-right-radius: 18px;
+  border-bottom-left-radius:18px;
+}
+
+.left-100{
+right:100%;
+}
+.left-0{
+    right:25%;
+}
+
+@media(min-width:900px){
+ul li:hover ul {
+    display: block!important;
+}
+}
+ul li ul {
+    width:253px; 
+    left: -63px;
+}
+
+
+.transtition-1{
+        transition: 1s;
+    }
+    .overflow-y-a{
+        overflow-y: auto;
+    }
+
+
+.size{
+min-height: 356px;
+     }
+@media(max-width:800px) {  
+    .size{
+min-height: 255px;
+                   
+        }
+        }
+
+.footer-wrapper{
+padding-top:80px;
+padding-bottom:70px;
+} 
+
+.max-height-0{
+                max-height:0px;
+                opacity: 0;
+                overflow: hidden;
+            }
+     i{
+  font-size: 40px;
+
+            }
+
+
+            @media(max-width:900px) {
+    .copyright{
+        padding-bottom: 75px;
+    }
+}
+
+@media(min-width:900px) {
+    .copyright{
+        padding-top: 25px;
+        padding-bottom: 25px;
+        
+    }
+}
+
+
+.custom-input::placeholder {
+  color: black;       /* change to any color */
+        /* sometimes browsers make it semi-transparent */
+}
+
+
+@media(min-width:900px)  {
+.blog-post-padding{
+    padding-left:100px;
+    padding-right:100px;
+}
+}
