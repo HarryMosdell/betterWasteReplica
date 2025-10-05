@@ -25,7 +25,9 @@ body {
     border:0px;
 
 }
-
+html, body {
+    overflow-x: hidden; /* hides horizontal scroll */
+}
 .green-text{
   color: rgb(30, 161, 154);
 }
